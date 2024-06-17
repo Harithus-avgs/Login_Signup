@@ -67,7 +67,7 @@ app.get("/users", (req, res) => {
     });
   } catch (err) {
     return res.status(403).json({
-      msg: "invalid token", 
+      msg: "invalid token",
     });
   }
 });
